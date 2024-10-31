@@ -1,32 +1,32 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/TeamSomber.github.io/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/TeamSomber.github.io/",
           "mainDocId": "scf/overview/overview_about",
           "docs": [
             {
               "id": "scf/api/juggle/juggle_about",
-              "path": "/scf/api/juggle/juggle_about"
+              "path": "/TeamSomber.github.io/scf/api/juggle/juggle_about"
             },
             {
               "id": "scf/getting_started/quickstart",
-              "path": "/scf/getting_started/quickstart",
+              "path": "/TeamSomber.github.io/scf/getting_started/quickstart",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "scf/overview/installation",
-              "path": "/scf/overview/installation",
+              "path": "/TeamSomber.github.io/scf/overview/installation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "scf/overview/overview_about",
-              "path": "/",
+              "path": "/TeamSomber.github.io/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -34,7 +34,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/TeamSomber.github.io/",
                 "label": "scf/overview/overview_about"
               }
             }

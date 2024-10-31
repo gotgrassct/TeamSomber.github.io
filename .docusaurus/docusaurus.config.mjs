@@ -4,13 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Modern Docs",
-  "tagline": "Clean, Modern Documentation",
+  "title": "TEAM SOMBER",
+  "tagline": "TEAM SOMBER",
   "favicon": "img/favicon.ico",
-  "url": "https://your-domain.com",
-  "baseUrl": "/",
-  "organizationName": "your-org",
-  "projectName": "modern-docs",
+  "url": "https://github.com",
+  "baseUrl": "/TeamSomber.github.io/",
+  "organizationName": "gotgrassct",
+  "projectName": "TeamSomber.github.io",
+  "deploymentBranch": "gh-pages",
   "presets": [
     [
       "@docusaurus/preset-classic",

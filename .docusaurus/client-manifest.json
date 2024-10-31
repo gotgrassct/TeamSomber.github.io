@@ -1,0 +1,187 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "20462341": [
+      267
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "21c64a62": [
+      54
+    ],
+    "3c36087d": [
+      395
+    ],
+    "411dc170": [
+      12
+    ],
+    "5e6a6e52": [
+      820
+    ],
+    "5e95c892": [
+      647
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "12": {
+      "js": [
+        {
+          "file": "assets/js/411dc170.422d9551.js",
+          "hash": "0dccd1d198ea49da",
+          "publicPath": "/TeamSomber.github.io/assets/js/411dc170.422d9551.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.e6b577db.js",
+          "hash": "452ba293789d2857",
+          "publicPath": "/TeamSomber.github.io/assets/js/a94703ab.e6b577db.js"
+        }
+      ]
+    },
+    "54": {
+      "js": [
+        {
+          "file": "assets/js/21c64a62.ee82cc1f.js",
+          "hash": "513a6f9836b21cee",
+          "publicPath": "/TeamSomber.github.io/assets/js/21c64a62.ee82cc1f.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.b05d55b7.js",
+          "hash": "2ef5cd0ee537799a",
+          "publicPath": "/TeamSomber.github.io/assets/js/a7bd4aaa.b05d55b7.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.decb76e0.js",
+          "hash": "a1564fa296f39957",
+          "publicPath": "/TeamSomber.github.io/assets/js/237.decb76e0.js"
+        }
+      ]
+    },
+    "267": {
+      "js": [
+        {
+          "file": "assets/js/20462341.5572c919.js",
+          "hash": "873decbbeb9b5119",
+          "publicPath": "/TeamSomber.github.io/assets/js/20462341.5572c919.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.5be748c8.js",
+          "hash": "f124a0a290e6536f",
+          "publicPath": "/TeamSomber.github.io/assets/js/runtime~main.5be748c8.js"
+        }
+      ]
+    },
+    "395": {
+      "js": [
+        {
+          "file": "assets/js/3c36087d.331f16a9.js",
+          "hash": "30d701a212abe6d6",
+          "publicPath": "/TeamSomber.github.io/assets/js/3c36087d.331f16a9.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.b1a67d18.js",
+          "hash": "cf4608fc3d39a1ef",
+          "publicPath": "/TeamSomber.github.io/assets/js/17896441.b1a67d18.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.df333fce.js",
+          "hash": "21a9f6a264e63935",
+          "publicPath": "/TeamSomber.github.io/assets/js/5e95c892.df333fce.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.9813309f.js",
+          "hash": "15cc1186027b42d5",
+          "publicPath": "/TeamSomber.github.io/assets/js/aba21aa0.9813309f.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.7d2c4b1d.js",
+          "hash": "c6c2009b1cf0cc68",
+          "publicPath": "/TeamSomber.github.io/assets/js/main.7d2c4b1d.js"
+        }
+      ]
+    },
+    "820": {
+      "js": [
+        {
+          "file": "assets/js/5e6a6e52.cb561e53.js",
+          "hash": "1879851dee5e8d14",
+          "publicPath": "/TeamSomber.github.io/assets/js/5e6a6e52.cb561e53.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.ff824d14.css",
+          "hash": "666851c65fdb6afc",
+          "publicPath": "/TeamSomber.github.io/assets/css/styles.ff824d14.css"
+        }
+      ]
+    }
+  }
+}
