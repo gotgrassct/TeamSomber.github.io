@@ -1,0 +1,160 @@
+{
+  "Blue Text": {
+    "prefix": "bt",
+    "body": "<BlueText>$TM_SELECTED_TEXT</BlueText>",
+    "description": "Wrap text in BlueText component"
+  },
+  "Green Text": {
+    "prefix": "gt",
+    "body": "<GreenText>$TM_SELECTED_TEXT</GreenText>",
+    "description": "Wrap text in GreenText component"
+  },
+  "Purple Text": {
+    "prefix": "pt",
+    "body": "<PurpleText>$TM_SELECTED_TEXT</PurpleText>",
+    "description": "Wrap text in PurpleText component"
+  },
+  "Grey Text": {
+    "prefix": "grt",
+    "body": "<GreyText>$TM_SELECTED_TEXT</GreyText>",
+    "description": "Wrap text in GreyText component"
+  },
+  "Yellow Text": {
+    "prefix": "yt",
+    "body": "<YellowText>$TM_SELECTED_TEXT</YellowText>",
+    "description": "Wrap text in YellowText component"
+  },
+  "Orange Text": {
+    "prefix": "ot",
+    "body": "<OrangeText>$TM_SELECTED_TEXT</OrangeText>",
+    "description": "Wrap text in OrangeText component"
+  },
+  "Pink Text": {
+    "prefix": "pkt",
+    "body": "<PinkText>$TM_SELECTED_TEXT</PinkText>",
+    "description": "Wrap text in PinkText component"
+  },
+  "Red Text": {
+    "prefix": "rt",
+    "body": "<RedText>$TM_SELECTED_TEXT</RedText>",
+    "description": "Wrap text in RedText component"
+  },
+  "Generic Blue Text": {
+    "prefix": "generic_bt",
+    "body": "<GenericBlueText>$TM_SELECTED_TEXT</GenericBlueText>",
+    "description": "Wrap text in GenericBlueText component (no tooltip)"
+  },
+  "Generic Green Text": {
+    "prefix": "generic_gt",
+    "body": "<GenericGreenText>$TM_SELECTED_TEXT</GenericGreenText>",
+    "description": "Wrap text in GenericGreenText component (no tooltip)"
+  },
+  "Generic Purple Text": {
+    "prefix": "generic_pt",
+    "body": "<GenericPurpleText>$TM_SELECTED_TEXT</GenericPurpleText>",
+    "description": "Wrap text in GenericPurpleText component (no tooltip)"
+  },
+  "Generic Grey Text": {
+    "prefix": "generic_grt",
+    "body": "<GenericGreyText>$TM_SELECTED_TEXT</GenericGreyText>",
+    "description": "Wrap text in GenericGreyText component (no tooltip)"
+  },
+  "Generic Yellow Text": {
+    "prefix": "generic_yt",
+    "body": "<GenericYellowText>$TM_SELECTED_TEXT</GenericYellowText>",
+    "description": "Wrap text in GenericYellowText component (no tooltip)"
+  },
+  "Generic Orange Text": {
+    "prefix": "generic_ot",
+    "body": "<GenericOrangeText>$TM_SELECTED_TEXT</GenericOrangeText>",
+    "description": "Wrap text in GenericOrangeText component (no tooltip)"
+  },
+  "Generic Pink Text": {
+    "prefix": "generic_pkt",
+    "body": "<GenericPinkText>$TM_SELECTED_TEXT</GenericPinkText>",
+    "description": "Wrap text in GenericPinkText component (no tooltip)"
+  },
+  "Generic Red Text": {
+    "prefix": "generic_rt",
+    "body": "<GenericRedText>$TM_SELECTED_TEXT</GenericRedText>",
+    "description": "Wrap text in GenericRedText component (no tooltip)"
+  },
+  "New Image": {
+    "prefix": "img",
+    "body": "<NewImg src=\"/assets/test/test.png\" />",
+    "description": "Insert NewImg component"
+  },
+  "YouTube Video": {
+    "prefix": "yt",
+    "body": "<Video url=\"$1\" />",
+    "description": "Insert Video component"
+  },
+  "Info Box": {
+    "prefix": "infobox",
+    "body": "<InfoBox>$TM_SELECTED_TEXT</InfoBox>",
+    "description": "Add an info box with Note: prefix"
+  },
+  "Page Link": {
+    "prefix": "pagelink",
+    "body": "<PageLink to=\"$1\">$TM_SELECTED_TEXT</PageLink>",
+    "description": "Wrap text in PageLink component"
+  },
+  "Doc Components Import": {
+    "prefix": "docimport",
+    "body": [
+      "import {",
+      "  BlueText,",
+      "  GreenText,",
+      "  PurpleText,",
+      "  GreyText,",
+      "  YellowText,",
+      "  OrangeText,",
+      "  PinkText,",
+      "  RedText,",
+      "  GenericBlueText,",
+      "  GenericGreenText,",
+      "  GenericPurpleText,",
+      "  GenericGreyText,",
+      "  GenericYellowText,",
+      "  GenericOrangeText,",
+      "  GenericPinkText,",
+      "  GenericRedText,",
+      "  NewImg,",
+      "  Video,",
+      "  InfoBox,",
+      "  PageLink,",
+      "  BulletPoints,",
+      "  LineFormat",
+      "} from '@site/src/components/DocComponents';",
+      "import PageAnimation from '@site/src/components/PageAnimation';"
+    ],
+    "description": "Import all doc components"
+  },
+  "Page Animation": {
+    "prefix": "pa",
+    "body": [
+      "<PageAnimation>",
+      "$TM_SELECTED_TEXT",
+      "</PageAnimation>"
+    ],
+    "description": "Wrap content in PageAnimation component"
+  },
+  "Bullet Points": {
+    "prefix": "bullets",
+    "body": [
+      "<BulletPoints>",
+      "$TM_SELECTED_TEXT",
+      "</BulletPoints>"
+    ],
+    "description": "Create a numbered bullet point list"
+  },
+  "Line Format": {
+    "prefix": "lines",
+    "body": [
+      "<LineFormat>",
+      "$TM_SELECTED_TEXT",
+      "</LineFormat>"
+    ],
+    "description": "Format text into separate lines"
+  }
+} 

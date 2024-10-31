@@ -1,0 +1,47 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "scf/overview/overview_about",
+          "docs": [
+            {
+              "id": "scf/api/juggle/juggle_about",
+              "path": "/scf/api/juggle/juggle_about"
+            },
+            {
+              "id": "scf/getting_started/quickstart",
+              "path": "/scf/getting_started/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "scf/overview/installation",
+              "path": "/scf/overview/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "scf/overview/overview_about",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "scf/overview/overview_about"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
