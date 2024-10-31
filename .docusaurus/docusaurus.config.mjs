@@ -16,12 +16,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\gotgr\\OneDrive\\Documents\\Documentation\\sidebars.js",
+          "sidebarPath": "C:\\Users\\gotgr\\OneDrive\\Documents\\Documentation\\TeamSomber.github.io\\sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\gotgr\\OneDrive\\Documents\\Documentation\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\gotgr\\OneDrive\\Documents\\Documentation\\TeamSomber.github.io\\src\\css\\custom.css"
         }
       }
     ]
