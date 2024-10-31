@@ -35,7 +35,7 @@ import PageAnimation from '@site/src/components/PageAnimation';
 
 <NewImg src="/assets/test.png" />
 
-# About Somber Combat Framework LOL (SCF)
+# About Somber Combat Framework (SCF)
 
 
 <LineFormat>
