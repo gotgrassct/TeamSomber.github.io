@@ -33,10 +33,9 @@ import PageAnimation from '@site/src/components/PageAnimation';
 
 <PageAnimation>
 
-<NewImg src="/assets/test.png" />
-
 # About Somber Combat Framework (SCF)
 
+<NewImg src="/assets/scf_logo.png" />
 
 <LineFormat>
 <GenericBlueText>Step 1:</GenericBlueText> Go to <GenericBlueText>https://fab.com</GenericBlueText> to Purchase and Download the plugn (if you haven't already)

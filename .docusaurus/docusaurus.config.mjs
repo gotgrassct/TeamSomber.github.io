@@ -18,7 +18,9 @@ export default {
       {
         "docs": {
           "sidebarPath": "C:\\Users\\gotgr\\OneDrive\\Documents\\Documentation\\TeamSomber.github.io\\sidebars.js",
-          "routeBasePath": "/"
+          "routeBasePath": "/",
+          "remarkPlugins": [],
+          "rehypePlugins": []
         },
         "blog": false,
         "theme": {

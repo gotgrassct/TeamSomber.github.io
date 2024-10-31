@@ -15,6 +15,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          remarkPlugins: [],
+          rehypePlugins: [],
         },
         blog: false,
         theme: {

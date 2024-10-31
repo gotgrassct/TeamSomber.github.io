@@ -87,6 +87,11 @@ export function NewImg({ src, className = '' }) {
   const [startingRect, setStartingRect] = useState(null);
   const zoomLevels = [1, 1.5, 2, 2.5];
 
+  // Convert the src path to work in both dev and production
+  const imgSrc = src.startsWith('/') ? 
+    (src.startsWith('/TeamSomber.github.io/') ? src : `/TeamSomber.github.io${src}`) : 
+    src;
+
   useEffect(() => {
     if (isExpanded && !className) {
       document.body.style.overflow = 'hidden';
@@ -142,7 +147,7 @@ export function NewImg({ src, className = '' }) {
 
   const imageContent = (
     <img 
-      src={src} 
+      src={imgSrc} 
       alt="" 
       style={{ 
         width: '100%',
@@ -233,7 +238,7 @@ export function NewImg({ src, className = '' }) {
             height: '90vh'
           }}>
             <img 
-              src={src} 
+              src={imgSrc} 
               alt="" 
               style={{
                 maxWidth: '90%',
