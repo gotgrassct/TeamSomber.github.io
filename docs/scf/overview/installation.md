@@ -24,7 +24,9 @@ import {
   NewImg,
   Video,
   InfoBox,
-  PageLink
+  PageLink,
+  BulletPoints,
+  LineFormat
 } from '@site/src/components/DocComponents';
 import PageAnimation from '@site/src/components/PageAnimation';
 
