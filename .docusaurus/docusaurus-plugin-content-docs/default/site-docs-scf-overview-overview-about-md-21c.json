@@ -1,0 +1,19 @@
+{
+  "id": "scf/overview/overview_about",
+  "title": "overview_about",
+  "description": "",
+  "source": "@site/docs/scf/overview/overview_about.md",
+  "sourceDirName": "scf/overview",
+  "slug": "/scf/overview/overview_about",
+  "permalink": "/TeamSomber.github.io/scf/overview/overview_about",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "installation",
+    "permalink": "/TeamSomber.github.io/scf/overview/installation"
+  }
+}

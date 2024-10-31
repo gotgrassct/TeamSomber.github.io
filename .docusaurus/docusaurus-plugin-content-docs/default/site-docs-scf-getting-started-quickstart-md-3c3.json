@@ -1,0 +1,19 @@
+{
+  "id": "scf/getting_started/quickstart",
+  "title": "quickstart",
+  "description": "",
+  "source": "@site/docs/scf/getting_started/quickstart.md",
+  "sourceDirName": "scf/getting_started",
+  "slug": "/scf/getting_started/quickstart",
+  "permalink": "/TeamSomber.github.io/scf/getting_started/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "installation",
+    "permalink": "/TeamSomber.github.io/scf/overview/installation"
+  }
+}
