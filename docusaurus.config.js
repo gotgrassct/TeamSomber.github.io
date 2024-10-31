@@ -1,11 +1,11 @@
 const config = {
-  title: 'Modern Docs',
-  tagline: 'Clean, Modern Documentation',
+  title: '',
+  tagline: 'TEAM SOMBER',
   favicon: 'img/favicon.ico',
-  url: 'https://your-domain.com',
-  baseUrl: '/',
-  organizationName: 'your-org',
-  projectName: 'modern-docs',
+  url: 'https://github.com',
+  baseUrl: '/TeamSomber.github.io/',
+  organizationName: 'gotgrassct',
+  projectName: 'TeamSomber.github.io',
 
   presets: [
     [
