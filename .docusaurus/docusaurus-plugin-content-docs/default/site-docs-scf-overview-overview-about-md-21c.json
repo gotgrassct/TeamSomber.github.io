@@ -1,7 +1,7 @@
 {
   "id": "scf/overview/overview_about",
   "title": "About",
-  "description": "The Somber Combat Framework (SCF) is a comprehensive combat system for Unreal Engine that allows you to create engaging and dynamic combat experiences. This framework includes various features such as:",
+  "description": "The Somber Juggle System lets you juggle enemies with ease. All you need is:",
   "source": "@site/docs/scf/overview/overview_about.md",
   "sourceDirName": "scf/overview",
   "slug": "/",

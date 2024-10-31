@@ -31,21 +31,16 @@ import PageAnimation from '@site/src/components/PageAnimation';
 
 <PageAnimation>
 
-<NewImg src="/assets/scf_logo.png" />
+# Juggle System Overview
 
-# About Somber Combat Framework
+The <BlueText>Somber Juggle System</BlueText> lets you juggle enemies with ease. All you need is:
 
-The Somber Combat Framework (SCF) is a comprehensive combat system for Unreal Engine that allows you to create engaging and dynamic combat experiences. This framework includes various features such as:
+- The <BlueText>SomberJuggleComponent</BlueText>
+- <BlueText>BPI_SomberJuggle</BlueText> blueprint interface added onto your enemy
+- <BlueText>ANS_OutputJuggleSettings</BlueText> on your player's anim montage
 
-- Advanced combat mechanics
-- Juggle system
-- Combo system
-- And more...
+On the enemy you need to implement the event get juggle settings, then when your enemy takes damage you call DoJuggle and input the juggle settings, and that's it, your enemy is able to get juggled now.
 
-<InfoBox>This documentation will guide you through setting up and using all features of the framework.</InfoBox>
+<InfoBox>Please refer to the <PageLink to="/scf/getting_started/quickstart"><GenericYellowText>Quickstart guide</GenericYellowText></PageLink> for implementation details.</InfoBox>
 
 </PageAnimation>
-
-
-
-

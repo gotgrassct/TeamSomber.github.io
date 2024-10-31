@@ -24,29 +24,22 @@ import {
   NewImg,
   Video,
   InfoBox,
-  PageLink,
-  LineFormat
+  PageLink
 } from '@site/src/components/DocComponents';
 import PageAnimation from '@site/src/components/PageAnimation';
 
 <PageAnimation>
 
-# Installation
+# Juggle System Overview
 
-## How To Install Somber Combat Framework (SCF)
+The <BlueText>Somber Juggle System</BlueText> lets you juggle enemies with ease. All you need is:
 
-<LineFormat>
-<BlueText>Step 1:</BlueText> Go to <GenericOrangeText>https://fab.com</GenericOrangeText> to purchase and download my plugin (if you haven't already)
-<GenericBlueText>Step 2:</GenericBlueText> Install it via the Epic Games Launcher.
-<GenericBlueText>Step 3:</GenericBlueText> That's it! You're ready to start implementing it.
-</LineFormat>
+- The <BlueText>SomberJuggleComponent</BlueText>
+- <BlueText>BPI_SomberJuggle</BlueText> blueprint interface added onto your enemy
+- <BlueText>ANS_OutputJuggleSettings</BlueText> on your player's anim montage
 
-Please go to the <PageLink to="/scf/getting_started/quickstart"><GenericGreenText>Quick Start Guide</GenericGreenText></PageLink> to quickly get started on fully setting all the systems up from scratch on a brand new character (can also follow the tutorial on an existing character)
+On the enemy you need to implement the event get juggle settings, then when your enemy takes damage you call DoJuggle and input the juggle settings, and that's it, your enemy is able to get juggled now.
 
-<InfoBox>This documentation is still under <GenericPurpleText>construction</GenericPurpleText></InfoBox>
+<InfoBox>Please refer to the <PageLink to="/scf/getting_started/quickstart"><GenericYellowText>Quickstart guide</GenericYellowText></PageLink> for implementation details.</InfoBox>
 
 </PageAnimation>
-
-
-
-

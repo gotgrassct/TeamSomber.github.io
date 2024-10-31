@@ -11,10 +11,6 @@
           "mainDocId": "scf/overview/overview_about",
           "docs": [
             {
-              "id": "scf/api/juggle/juggle_about",
-              "path": "/TeamSomber.github.io/scf/api/juggle/juggle_about"
-            },
-            {
               "id": "scf/getting_started/quickstart",
               "path": "/TeamSomber.github.io/scf/getting_started/quickstart",
               "sidebar": "tutorialSidebar"

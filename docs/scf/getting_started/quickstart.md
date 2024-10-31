@@ -1,6 +1,6 @@
 ---
 id: quickstart
-title: Quick Start Guide
+title: Quickstart Guide
 sidebar_position: 1
 ---
 
@@ -30,10 +30,16 @@ import PageAnimation from '@site/src/components/PageAnimation';
 
 <PageAnimation>
 
-# Quick Start Guide
+# Juggle System Overview
 
-This guide will walk you through setting up the Somber Combat Framework in your project.
+The <BlueText>Somber Juggle System</BlueText> lets you juggle enemies with ease. All you need is:
 
-<InfoBox>More content coming soon...</InfoBox>
+- The <BlueText>SomberJuggleComponent</BlueText>
+- <BlueText>BPI_SomberJuggle</BlueText> blueprint interface added onto your enemy
+- <BlueText>ANS_OutputJuggleSettings</BlueText> on your player's anim montage
+
+On the enemy you need to implement the event get juggle settings, then when your enemy takes damage you call DoJuggle and input the juggle settings, and that's it, your enemy is able to get juggled now.
+
+<InfoBox>Please refer to the <PageLink to="/scf/getting_started/quickstart"><GenericYellowText>Quickstart guide</GenericYellowText></PageLink> for implementation details.</InfoBox>
 
 </PageAnimation>

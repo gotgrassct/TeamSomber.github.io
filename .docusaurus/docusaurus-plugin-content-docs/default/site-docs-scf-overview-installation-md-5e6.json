@@ -1,7 +1,7 @@
 {
   "id": "scf/overview/installation",
   "title": "Installation",
-  "description": "How To Install Somber Combat Framework (SCF)",
+  "description": "The Somber Juggle System lets you juggle enemies with ease. All you need is:",
   "source": "@site/docs/scf/overview/installation.md",
   "sourceDirName": "scf/overview",
   "slug": "/scf/overview/installation",
@@ -22,7 +22,7 @@
     "permalink": "/TeamSomber.github.io/"
   },
   "next": {
-    "title": "Quick Start Guide",
+    "title": "Quickstart Guide",
     "permalink": "/TeamSomber.github.io/scf/getting_started/quickstart"
   }
 }
