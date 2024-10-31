@@ -1,11 +1,12 @@
 const config = {
-  title: '',
+  title: 'TEAM SOMBER',
   tagline: 'TEAM SOMBER',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
   baseUrl: '/TeamSomber.github.io/',
   organizationName: 'gotgrassct',
   projectName: 'TeamSomber.github.io',
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
