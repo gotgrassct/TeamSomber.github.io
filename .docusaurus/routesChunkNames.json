@@ -1,27 +1,70 @@
 {
-  "/TeamSomber.github.io/-c41": {
-    "__comp": "5e95c892",
+  "/TeamSomber.github.io/__docusaurus/debug-659": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/config-37d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/content-d1a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    },
+    "__props": "__props---team-somber-github-io-docusaurus-debug-content-038-f4f"
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/globalData-c1d": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/metadata-d36": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/registry-66f": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/__docusaurus/debug/routes-4f5": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-docusaurus-debugb-38-1d5"
+    }
+  },
+  "/TeamSomber.github.io/-c41": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---team-somber-github-io-aba-83b"
     }
   },
   "/TeamSomber.github.io/-168": {
-    "__comp": "a7bd4aaa",
-    "__props": "411dc170"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---team-somber-github-io-411-d6c"
   },
   "/TeamSomber.github.io/-e0d": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/TeamSomber.github.io/scf/getting_started/quickstart-623": {
-    "__comp": "17896441",
-    "content": "3c36087d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-somber-github-io-scf-getting-started-quickstart-3-c-3-b05"
   },
   "/TeamSomber.github.io/scf/overview/installation-eff": {
-    "__comp": "17896441",
-    "content": "5e6a6e52"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-somber-github-io-scf-overview-installation-5-e-6-a35"
   },
   "/TeamSomber.github.io/-eb7": {
-    "__comp": "17896441",
-    "content": "21c64a62"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---team-somber-github-io-21-c-11b"
   }
 }

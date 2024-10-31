@@ -434,6 +434,11 @@ export function Video({ url }) {
 
 // PageLink Component
 export function PageLink({ to, children }) {
+  // Convert the path to work in both dev and production
+  const linkPath = to.startsWith('/') ? 
+    (to.startsWith('/TeamSomber.github.io/') ? to : `/TeamSomber.github.io${to}`) : 
+    to;
+
   const handleMouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
@@ -444,7 +449,7 @@ export function PageLink({ to, children }) {
 
   return (
     <a 
-      href={to}
+      href={linkPath}
       className="page-link"
       onMouseMove={handleMouseMove}
       style={{
