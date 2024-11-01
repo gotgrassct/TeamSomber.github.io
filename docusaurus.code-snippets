@@ -79,6 +79,26 @@
     "body": "<GenericRedText>$TM_SELECTED_TEXT</GenericRedText>",
     "description": "Wrap text in GenericRedText component (no tooltip)"
   },
+  "Aqua Text": {
+    "prefix": "at",
+    "body": "<AquaText>$TM_SELECTED_TEXT</AquaText>",
+    "description": "Wrap text in AquaText component"
+  },
+  "White Text": {
+    "prefix": "wt",
+    "body": "<WhiteText>$TM_SELECTED_TEXT</WhiteText>",
+    "description": "Wrap text in WhiteText component"
+  },
+  "Generic Aqua Text": {
+    "prefix": "generic_at",
+    "body": "<GenericAquaText>$TM_SELECTED_TEXT</GenericAquaText>",
+    "description": "Wrap text in GenericAquaText component (no tooltip)"
+  },
+  "Generic White Text": {
+    "prefix": "generic_wt",
+    "body": "<GenericWhiteText>$TM_SELECTED_TEXT</GenericWhiteText>",
+    "description": "Wrap text in GenericWhiteText component (no tooltip)"
+  },
   "New Image": {
     "prefix": "img",
     "body": "<NewImg src=\"/assets/test/test.png\" />",
@@ -99,6 +119,11 @@
     "body": "<PageLink to=\"$1\">$TM_SELECTED_TEXT</PageLink>",
     "description": "Wrap text in PageLink component"
   },
+  "Download Link": {
+    "prefix": "dl",
+    "body": "<DownloadLink filename=\"$1\">$TM_SELECTED_TEXT</DownloadLink>",
+    "description": "Create a download link for animation assets"
+  },
   "Doc Components Import": {
     "prefix": "docimport",
     "body": [
@@ -111,6 +136,8 @@
       "  OrangeText,",
       "  PinkText,",
       "  RedText,",
+      "  AquaText,",
+      "  WhiteText,",
       "  GenericBlueText,",
       "  GenericGreenText,",
       "  GenericPurpleText,",
@@ -119,12 +146,15 @@
       "  GenericOrangeText,",
       "  GenericPinkText,",
       "  GenericRedText,",
+      "  GenericAquaText,",
+      "  GenericWhiteText,",
       "  NewImg,",
       "  Video,",
       "  InfoBox,",
       "  PageLink,",
       "  BulletPoints,",
-      "  LineFormat",
+      "  LineFormat,",
+      "  DownloadLink",
       "} from '@site/src/components/DocComponents';",
       "import PageAnimation from '@site/src/components/PageAnimation';"
     ],

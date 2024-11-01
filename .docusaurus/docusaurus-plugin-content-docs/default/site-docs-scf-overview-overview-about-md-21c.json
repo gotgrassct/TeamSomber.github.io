@@ -1,7 +1,7 @@
 {
   "id": "scf/overview/overview_about",
   "title": "About",
-  "description": "SCF is a simple and easy to use Combat Framework that lets you setup combat for your characters from scratch in no time at all. In total there are 9 separate modular systems (actor components) in one plugin:",
+  "description": "Join the TEAM SOMBER discord for support and suggestions! https://discord.gg/2nhe4Fr3FM",
   "source": "@site/docs/scf/overview/overview_about.md",
   "sourceDirName": "scf/overview",
   "slug": "/",

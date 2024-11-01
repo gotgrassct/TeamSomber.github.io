@@ -67,6 +67,8 @@ export const YellowText = createColorComponent('#ffd966', 'rgba(255, 217, 102, 0
 export const OrangeText = createColorComponent('#ff9f66', 'rgba(255, 159, 102, 0.1)', 'Important');
 export const PinkText = createColorComponent('#ff66b3', 'rgba(255, 102, 179, 0.1)', 'Tip');
 export const RedText = createColorComponent('#ff6666', 'rgba(255, 102, 102, 0.1)', 'Warning');
+export const AquaText = createColorComponent('#00ffff', 'rgba(0, 255, 255, 0.1)', 'Aqua Highlight');
+export const WhiteText = createColorComponent('#ffffff', 'rgba(255, 255, 255, 0.1)', 'White Highlight');
 
 // Generic Text Colors (without tooltips)
 export const GenericBlueText = createColorComponent('#66b3ff', 'rgba(102, 179, 255, 0.1)');
@@ -77,6 +79,8 @@ export const GenericYellowText = createColorComponent('#ffd966', 'rgba(255, 217,
 export const GenericOrangeText = createColorComponent('#ff9f66', 'rgba(255, 159, 102, 0.1)');
 export const GenericPinkText = createColorComponent('#ff66b3', 'rgba(255, 102, 179, 0.1)');
 export const GenericRedText = createColorComponent('#ff6666', 'rgba(255, 102, 102, 0.1)');
+export const GenericAquaText = createColorComponent('#00ffff', 'rgba(0, 255, 255, 0.1)');
+export const GenericWhiteText = createColorComponent('#ffffff', 'rgba(255, 255, 255, 0.1)');
 
 // Image Component
 export function NewImg({ src, className = '' }) {
@@ -606,5 +610,95 @@ export function LineFormat({ children }) {
     }}>
       {children}
     </div>
+  );
+}
+
+// Add this new component after your existing components
+export function DownloadLink({ filename, children }) {
+  const handleDownload = (e) => {
+    e.preventDefault();
+    const downloadPath = `/TeamSomber.github.io/assets/animations/${filename}`;
+    
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = downloadPath;
+    link.download = filename; // Set the download filename
+    link.target = '_blank';
+    
+    // Simulate click to trigger download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handleMouseMove = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    e.currentTarget.style.setProperty('--x', `${x}%`);
+    e.currentTarget.style.setProperty('--y', `${y}%`);
+  };
+
+  return (
+    <span 
+      onClick={handleDownload}
+      onMouseMove={handleMouseMove}
+      className="download-link"
+      style={{
+        color: '#66b3ff',
+        cursor: 'pointer',
+        padding: '2px 6px',
+        borderRadius: '4px',
+        backgroundColor: 'rgba(102, 179, 255, 0.1)',
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '4px',
+        position: 'relative',
+        overflow: 'hidden'
+      }}
+    >
+      <style>
+        {`
+          .download-link {
+            transition: all 0.2s ease;
+          }
+
+          .download-link:hover {
+            transform: translateY(-1px);
+          }
+
+          .download-link::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(
+              circle at var(--x, 0%) var(--y, 0%),
+              rgba(102, 179, 255, 0.2),
+              transparent 70%
+            );
+            opacity: 0;
+            transition: opacity 0.3s;
+          }
+
+          .download-link:hover::after {
+            opacity: 1;
+          }
+
+          .download-icon {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+          }
+        `}
+      </style>
+      {/* Download icon SVG */}
+      <svg className="download-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-5 4h10v-2H7v2z"/>
+      </svg>
+      {children}
+    </span>
   );
 }

@@ -19,6 +19,13 @@ const sidebars = {
             'scf/getting_started/quickstart',
           ],
         },
+        {
+          type: 'category',
+          label: 'Versions',
+          items: [
+            'scf/versions/1',
+          ],
+        },
       ],
     },
   ],

@@ -35,7 +35,7 @@ import PageAnimation from '@site/src/components/PageAnimation';
 # How To InstalL Somber Combat Framework (SCF)
 
 <LineFormat>
-<GenericBlueText>Step 1:</GenericBlueText> Go to <GenericBlueText>https://fab.com</GenericBlueText> to Purchase and Download the plugn (if you haven't already)
+<GenericBlueText>Step 1:</GenericBlueText> Go to <PageLink to="https://fab.com"><GenericBlueText>https://fab.com</GenericBlueText></PageLink> to Purchase and Download the plugn (if you haven't already)
 <GenericBlueText>Step 2:</GenericBlueText> Install it via the Epic Games Launcher
 <GenericBlueText>Step 3:</GenericBlueText> That's it! You're now ready to start setting up all the systems on your characters.
 </LineFormat>

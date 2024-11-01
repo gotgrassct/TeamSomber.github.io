@@ -24,6 +24,11 @@
               "id": "scf/overview/overview_about",
               "path": "/TeamSomber.github.io/",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "scf/versions/1",
+              "path": "/TeamSomber.github.io/scf/versions/1",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
