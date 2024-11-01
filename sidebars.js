@@ -2,7 +2,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Somber Combat Framework',
+      label: 'Somber Combat Framework (SCF)',
       items: [
         {
           type: 'category',
